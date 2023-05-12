@@ -1,0 +1,38 @@
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Josefin Sans';
+  color: #FFD369;
+  margin-bottom: 2rem;
+}
+
+.description {
+color: #d3d3d3; 
+font-family: Arial, Helvetica, sans-serif;
+width: 80%;
+margin-bottom: 1rem;
+font-weight: bold; 
+}
+.hr {
+  width: 10rem;
+  margin: 1rem;
+}
+
+.info {
+  color: #FFD369;
+  font-family: 'Josefin Sans';
+  margin-top: .5rem;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+}
