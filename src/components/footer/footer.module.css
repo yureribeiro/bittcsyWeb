@@ -3,13 +3,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #393E46;
-  border-top: .1rem solid #000;
+  background-color: transparent;
   width: 100%;
 }
 
 .logo {
-  width: 3rem;
+  width: 4rem;
 }
 
 .links {
@@ -18,20 +17,12 @@
 }
 .link {
   font-family: 'Josefin Sans';
-  color: #FFD369;
+  color: #edb409;
   text-decoration: none;
 }
 
 @media (max-width: 720px) {
   .container {
-    padding: .5rem 0;
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  .links {
-    align-items: center;
-    display: flex;
-    gap: 1rem;
+    display: none;
   }
 }

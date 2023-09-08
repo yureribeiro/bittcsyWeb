@@ -1,5 +1,5 @@
 .container {
-  height: 90vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
 }
 
 .title {
-  color: #FFD369;
+  color: #f4b729;
   margin-bottom: 1rem;
 }
 
@@ -34,30 +34,24 @@
   color: #fff;
   background-color: #06466324;
   border: .1rem solid #bfbfbf63;
-  border-radius: .5rem;
-  padding: .5rem;
+  border-radius: .4rem;
+  padding: .7rem;
   margin-bottom: 1rem;
-  max-height: 10rem;
-  min-width: 100%;
 }
 
 .buttonsDiv {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: flex-end;
 }
 
 .button {
+  cursor: pointer;
   border: none;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
   background-color: #0646637d;
-  padding: .43rem 3rem;
-  border-radius: .5rem;
-  box-shadow: .1rem .1rem .2rem #0000006b;
-  color: #FFD369;
+  padding: .7rem 2rem;
+  border-radius: .4rem;
+  color: #f4b729;
   font-weight: bold;
   margin-bottom: 1rem;
   transition: .4s;

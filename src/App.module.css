@@ -7,16 +7,24 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
-  min-width: 300px;
+  min-height: 100vh;
+  min-width: 100vw;
   overflow-x: hidden;
-  background-color: #222831;
+
+}
+
+.containerApp {
+  background: url('./assets/bgImage.png');
+  background-color: #000000f2;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .mainApp {
   height: 100%;
   width: 100%;
-  padding: 1rem;
-  background-color: #222831;
 }

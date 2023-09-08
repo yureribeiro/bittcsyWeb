@@ -73,7 +73,6 @@ function Form() {
           />
         </div>
         <p className={styles.info}>Sua mensagem será enviada ao email: bittcsy@gmail.com</p>
-        <p className={styles.info}>Somente Whatsapp: (62) 98466-6739</p>
       </form>
     </section>
   )
